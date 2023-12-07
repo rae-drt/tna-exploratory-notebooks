@@ -35,7 +35,7 @@ The notebooks are designed to be run in order, but you can also jump around or s
 
 2 - [More data and details](./2-working-through-results.ipynb) - This notebook starts by looking at some of the other data you get from the search endpoint, and how it can be used to get a bigger set of results. It then looks at how to use the details endpoint to get more information about specific records, or sets of records.
 
-3 - (Coming soon)
+3 - [Working through collections](./3_working_through_collections.ipynb) - Here we go through endpoints that can be used to gather data about entire collections when given a single record, or build context such as hierarchy above or below a given record. The remaining endpoints of Discovery are also introduced. Finally, the course concludes and the case studies are introduced. 
 
 ### Stage 2 notebooks
 
