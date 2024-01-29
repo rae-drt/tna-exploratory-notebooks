@@ -39,6 +39,12 @@ The notebooks are designed to be run in order, but you can also jump around or s
 
 ### Stage 2 notebooks
 
+- [Drawing graphs](./drawing-graphs/) - Using the example of someone investigating whether there is any relation between a records start date or duration and the length of its description, this pair of notebooks takes you through the process of:
+
+    1. Gathering the appropriate data from Discovery API
+    2. Data manipulation using `panads`
+    3. Drawing graphs using `matplotlib`
+
 - [Visualising and Mapping](./mapping-and-visualising-ships/) - These notebooks take a look at the number of records available in the [ADM series](https://discovery.nationalarchives.gov.uk/browse/r/h/C4). The [Visualising notebook](./mapping-and-visualising-ships/) looks at the wider information, gathering insights such as record series with longer descriptions, or time periods with more records. The [Mapping notebook](./mapping-and-visualising-ships/mapping-dead-reckoning.ipynb) takes a look at what can be done with digitised records to enhance the information available; in this case, taking ships logs, mapping their voyages, and including other pertinent information such as weather and events that happened along the way.
 
 - [NLP] Harshad add your description here :) 
