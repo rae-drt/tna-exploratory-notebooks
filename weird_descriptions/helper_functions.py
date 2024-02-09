@@ -28,10 +28,9 @@ def find_first_level_children(series, max_depth):
 def find_children(series, max_depth, current_depth):
     return_dict = {}
     current_depth += 1
-    print(series)
+    print("Current ID: " + str(series))
     for individual in series:
         time.sleep(1)
-        print(type(individual))
         url = baseurl + children_endpoint + individual["id"]
         headers = {'Accept': 'application/json'}
         response = requests.get(url, headers=headers)
@@ -55,9 +54,29 @@ def find_children(series, max_depth, current_depth):
                 break
     return return_dict
 
+def count_records(data):
+    count = 0
+    if data["children"] == "No children":
+        return 1
+    for child in data["children"]:
+        count += count_records(child)
+    return count
+
 def get_series_description(series):
     data = {}
     max_depth = 99
     data["top_level"] = series
     data["children"] = find_first_level_children(series, max_depth)
+    data["total_records_count"] = count_records(data)
     return data
+
+
+def filter_children(data):
+    ignore_key = "children"
+    filterd_data = {}
+    for key, value in data.items():
+        if key != ignore_key:
+            filterd_data[key] = value
+        else:
+            filterd_data[key] = "Children not printed"
+    return filterd_data
