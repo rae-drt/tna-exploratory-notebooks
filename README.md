@@ -47,4 +47,6 @@ The notebooks are designed to be run in order, but you can also jump around or s
 
 - [Visualising and Mapping](./mapping-and-visualising-ships/) - These notebooks take a look at the number of records available in the [ADM series](https://discovery.nationalarchives.gov.uk/browse/r/h/C4). The [Visualising notebook](./mapping-and-visualising-ships/) looks at the wider information, gathering insights such as record series with longer descriptions, or time periods with more records. The [Mapping notebook](./mapping-and-visualising-ships/mapping-dead-reckoning.ipynb) takes a look at what can be done with digitised records to enhance the information available; in this case, taking ships logs, mapping their voyages, and including other pertinent information such as weather and events that happened along the way.
 
+- [Weird description](./weird-description/) - This notebook looks at all the descriptions in a given series, and tries to find the most unusual ones based on word occurrence frequency.
+
 - [NLP] Harshad add your description here :) 
