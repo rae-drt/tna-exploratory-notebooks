@@ -38,7 +38,11 @@ To demonstrate some of the many different ways you can use data gathered from th
 
 - [Drawing maps](./mapping/README.md) - With the variety of records held by TNA, it is perhaps unsurprising that many of them are maps, or have locations associated with them. This case study looks in more depth at the [`Folium`](https://python-visualization.github.io/folium/) library, which can be used to draw maps in Python. Folum is introduced in a couple of example notebooks, to show its versatility. A case study is then shown which assumes data has been gathered from ships logs, showing how a chase between two ships can be transformed from a table of data to an animated map showing the ships movements over time.
 
+- [IIIF](./iiif-notebooks/) - IIIF standards are rapidly becoming widespread in digital humanities use, and are introduced here. These two notebooks cover the Presentation and Image APIs, and use an example document from discovery to build up a hypothetical IIIF manifest. The Image API notebook also dissects some live examples, to see what values have been used, and what the effect of changing them is.
+
 - [Exploring and visualising data](./exploring-and-visualising-data/README.md) - Here, the ability to gather metadata about large numbers of records from the API is leveraged, and multiple ways to explore and visualise this data are shown. The first stage of this case study focusses on gathering the data of specific interest, and manipulating it into a useful and portable format. The [`pandas`](https://pandas.pydata.org/) library is introduced to demonstrate Dataframes, and the data is later saved as a CSV. In the second notebook, graphs of the data are drawn, showing how to use the [`matplotlib`](https://matplotlib.org/) library, and highlighting some of the insights these graphs show. The third notebook develops on these insights, introducing some starter statistical analysis techniques to draw more detailed conclusions; working with the [`scipy`](https://www.scipy.org/) and [`sklearn`](https://scikit-learn.org/stable/) libraries to do so. 
+
+
 
 - [NLP] Coming soon. 
 
@@ -59,7 +63,9 @@ Jupyter notebooks are very portable, and can be run in a number of different way
 - All notebooks will attempt to install their own requirements at the start using [Pip](https://pypi.org/project/pip/). If you are running them locally, you may need to install these manually if the notebook fails to do so.
 - Most notebooks are lightweight enough to run locally on most devices or via Binder. The NLP case studies are more intensive, and will work better on a device with a compatible GPU or Google Colab.
 
+
 #### Accounts
 - To run the notebooks on Google Colab, you will need a Google account.
 - Some of the case studies use data or downloads available from Discovery and behind a paywall. These cells are all optional, and free to access data alternatives are provided.
+
 
