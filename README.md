@@ -22,7 +22,7 @@ The main series are designed to be worked through in order, as they build on eac
 
 ### API introduction
 
-0 - [What is an API?](./0-what-is-an-api.ipynb) - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD?labpath=https%3A%2F%2Fgithub.com%2Frae-drt%2Ftna-exploratory-notebooks%2Fblob%2Fmain%2F0-what-is-an-api.ipynb) - This notebook introduces the concept of an API, and how to interact with one. This one is only necessary if you're not familiar with APIs, or want a refresher.
+0 - [What is an API?](./0-what-is-an-api.ipynb) - https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Frae-drt%2Ftna-exploratory-notebooks%2Fblob%2Fmain%2F0-what-is-an-api.ipynb - This notebook introduces the concept of an API, and how to interact with one. This one is only necessary if you're not familiar with APIs, or want a refresher.
 
 1 - [Intro to the Discovery API](./1-intro-to-discovery-api.ipynb) - This notebook introduces the Discovery API sandbox and the search endpoint. It goes through how to build a request on the sandbox, and what information you need to build requests in Python, all worked through with a worked example.
 
