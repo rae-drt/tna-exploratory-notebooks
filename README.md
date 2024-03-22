@@ -46,6 +46,10 @@ To demonstrate some of the many different ways you can use data gathered from th
 
 - [NLP] Coming soon. 
 
+### Other notebooks
+
+- [Discovery, data analysis, and posibilities with the API](/discovery.ipynb) is a notebook designed for live demonstrations project, as a preview. It is available in the repository, and can be run, but be aware that it is not as polished as the main series. 
+
 ## Running the notebooks
 
 Jupyter notebooks are very portable, and can be run in a number of different ways, some options of which are listed below. The links below serve as overall entries to the notebooks, more direct links are provided in the descriptions above for 
