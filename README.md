@@ -22,7 +22,7 @@ The main series are designed to be worked through in order, as they build on eac
 
 ### API introduction
 
-0 - [What is an API?](./0-what-is-an-api.ipynb) - This notebook introduces the concept of an API, and how to interact with one. This one is only necessary if you're not familiar with APIs, or want a refresher.
+0 - [What is an API?](./0-what-is-an-api.ipynb) - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD?labpath=https%3A%2F%2Fgithub.com%2Frae-drt%2Ftna-exploratory-notebooks%2Fblob%2Fmain%2F0-what-is-an-api.ipynb) - This notebook introduces the concept of an API, and how to interact with one. This one is only necessary if you're not familiar with APIs, or want a refresher.
 
 1 - [Intro to the Discovery API](./1-intro-to-discovery-api.ipynb) - This notebook introduces the Discovery API sandbox and the search endpoint. It goes through how to build a request on the sandbox, and what information you need to build requests in Python, all worked through with a worked example.
 
@@ -57,7 +57,7 @@ Jupyter notebooks are very portable, and can be run in a number of different way
 - Locally, on your device.
     - [The Jupyter project](https://jupyter.org/) provides several options to run Jupyter notebooks, including on device and in the cloud.
     - VSCode supports Jupyter notebooks via an extension. Good documentation for this is provided on [the VSCode website](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
-- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD). A cloud service that lets you run Jupyter notebooks. It is free to use, and allows your notebooks to be run by anyone with an internet connection. All notebooks aside from the NLP case studies can be run on Binder.
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD). A cloud service that lets you run Jupyter notebooks. It is free to use, and allows your notebooks to be run by anyone with an internet connection. All notebooks aside from the NLP case studies can be run on Binder. Note that, when using Binder, many cells have a large output, and can result in a lot of scrolling.
 - [Google Colab] Similar to Binder, Colab lets you run Jupyter notebooks in the cloud. It provides the option to use a GPU, a necessity for some of the more computationally intensive notebooks (hence, the only option for the NLP case studies). To run notebooks using Colab, you will need to log in with a Google account. 
 
 ### Requirements
