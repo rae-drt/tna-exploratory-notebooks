@@ -57,7 +57,7 @@ Jupyter notebooks are very portable, and can be run in a number of different way
 - Locally, on your device.
     - [The Jupyter project](https://jupyter.org/) provides several options to run Jupyter notebooks, including on device and in the cloud.
     - VSCode supports Jupyter notebooks via an extension. Good documentation for this is provided on [the VSCode website](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
-- [Binder]. A cloud service that lets you run Jupyter notebooks. It is free to use, and allows your notebooks to be run by anyone with an internet connection. All notebooks aside from the NLP case studies can be run on Binder.
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD). A cloud service that lets you run Jupyter notebooks. It is free to use, and allows your notebooks to be run by anyone with an internet connection. All notebooks aside from the NLP case studies can be run on Binder.
 - [Google Colab] Similar to Binder, Colab lets you run Jupyter notebooks in the cloud. It provides the option to use a GPU, a necessity for some of the more computationally intensive notebooks (hence, the only option for the NLP case studies). To run notebooks using Colab, you will need to log in with a Google account. 
 
 ### Requirements
