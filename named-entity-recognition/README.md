@@ -1,6 +1,6 @@
 # Named Entity Recognition (NER)
 
-This case study introduces [HuggingFace library](https://huggingface.co) which can be used to access various LLM models. For this case study, the task of NER is worked upon.
+This case study introduces [HuggingFace library](https://huggingface.co) which can be used to access various LLM models. For this case study, the task of NER and named entity linking is worked upon.
 
 ## Libraries
 
