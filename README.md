@@ -73,5 +73,6 @@ Jupyter notebooks are very portable, and can be run in a number of different way
 #### Accounts
 - To run the notebooks on Google Colab, you will need a Google account.
 - Some of the case studies use data or downloads available from Discovery and behind a paywall. These cells are all optional, and free to access data alternatives are provided.
+- To run the prompt engineering notebook, you will need OpenAI account and [OpenAI's API key](https://platform.openai.com/api-keys)
 
 
