@@ -21,7 +21,7 @@ def getNE(ner_results):
           if j["word"][0:2] == '##':
             seq = seq + j["word"][2:]
           else:
-            named_entities.append((seq, ent))
+            named_entities.append((seq, ent[2:]))
             seq = j["word"]
             ent_last = ent
             ent = ""
@@ -32,7 +32,7 @@ def getNE(ner_results):
           seq = seq + j["word"][2:]
         else:
           seq = seq + " " + j["word"]
-    named_entities.append((seq, ent_last))
+    named_entities.append((seq, ent_last[2:]))
     return named_entities
 
 def get_pad(sentence, named_entities):
