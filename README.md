@@ -42,9 +42,11 @@ To demonstrate some of the many different ways you can use data gathered from th
 
 - [Exploring and visualising data](./exploring-and-visualising-data/README.md) - Here, the ability to gather metadata about large numbers of records from the API is leveraged, and multiple ways to explore and visualise this data are shown. The first stage of this case study focusses on gathering the data of specific interest, and manipulating it into a useful and portable format. The [`pandas`](https://pandas.pydata.org/) library is introduced to demonstrate Dataframes, and the data is later saved as a CSV. In the second notebook, graphs of the data are drawn, showing how to use the [`matplotlib`](https://matplotlib.org/) library, and highlighting some of the insights these graphs show. The third notebook develops on these insights, introducing some starter statistical analysis techniques to draw more detailed conclusions; working with the [`scipy`](https://www.scipy.org/) and [`sklearn`](https://scikit-learn.org/stable/) libraries to do so. 
 
+- [Named Entity Recognition and Linking through finetuning](./named-entity-recognition-finetuning/README.md) Many records held by TNA contains the mention of named entities like people, organizations, etc. This case study introduces [Transformer models](https://huggingface.co/models) and explains how to finetune it using our own annotated data to improve accuracy. The finetuned model extracts the mentions of named entity and link it to their respective pages on [Wikipedia](https://www.wikipedia.org/)
 
+- [Named Entity Recognition and Linking through models](./named-entity-recognition/README.md) The [Named Entity Recognition and Linking through finetuning](./named-entity-recognition-finetuning/README.md) notebooks shows how a transformer model can be finetuned to extarct named entity. However, the notebook is technically advanced and needs compuitng resources like GPUs. An alternative to it is using already finetuned models through [Higgingface library](https://huggingface.co). This case study introduces [Transformer models](https://huggingface.co/models) which can be used for named entity recognition and linking.
 
-- [NLP] Coming soon. 
+- [Prompt engineering](./prompt-engineering/README.md) Generative AI models can be employed to do various types of analysis of a text. This case study showcases how to use OpenAI' API and prompt engineering to perform document classification and sensitivity analysis of text.
 
 ### Other notebooks
 
@@ -58,7 +60,7 @@ Jupyter notebooks are very portable, and can be run in a number of different way
     - [The Jupyter project](https://jupyter.org/) provides several options to run Jupyter notebooks, including on device and in the cloud.
     - VSCode supports Jupyter notebooks via an extension. Good documentation for this is provided on [the VSCode website](https://code.visualstudio.com/docs/datascience/jupyter-notebooks).
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rae-drt/tna-exploratory-notebooks/HEAD). A cloud service that lets you run Jupyter notebooks. It is free to use, and allows your notebooks to be run by anyone with an internet connection. All notebooks aside from the NLP case studies can be run on Binder. Note that, when using Binder, many cells have a large output, and can result in a lot of scrolling. The button here will take you to the main repository on Binder, and you can navigate to the notebook you want from there.
-- [Google Colab] Similar to Binder, Colab lets you run Jupyter notebooks in the cloud. It provides the option to use a GPU, a necessity for some of the more computationally intensive notebooks (hence, the only option for the NLP case studies). To run notebooks using Colab, you will need to log in with a Google account. 
+- [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/notebooks/welcome.ipynb?hl=en) Similar to Binder, Colab lets you run Jupyter notebooks in the cloud. It provides the option to use a GPU, a necessity for some of the more computationally intensive notebooks (hence, the only option for the NLP case studies). To run notebooks using Colab, you will need to log in with a Google account. 
 
 ### Requirements
 
@@ -71,5 +73,6 @@ Jupyter notebooks are very portable, and can be run in a number of different way
 #### Accounts
 - To run the notebooks on Google Colab, you will need a Google account.
 - Some of the case studies use data or downloads available from Discovery and behind a paywall. These cells are all optional, and free to access data alternatives are provided.
+- To run the prompt engineering notebook, you will need OpenAI account and [OpenAI's API key](https://platform.openai.com/api-keys)
 
 
