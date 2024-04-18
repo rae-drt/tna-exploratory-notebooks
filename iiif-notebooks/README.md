@@ -1,8 +1,8 @@
 # IIIF 
 
-IIIF is a set of standards for serving images and other media over the internet. In this case, a 'standard' is a predefined and agreed procedure - here it specifies what data is transmitted, and how it is written. 
+[IIIF (International Image Interoperability Framework)](https://iiif.io/) is a set of standards for serving images and other media over the internet. In this case, a 'standard' is a predefined and agreed procedure - here it specifies what data is transmitted, and how it is written. 
 
-IIIF documents, typically called manifests, are generally written in json, a typical format for transmitting data over the internet. JSON documents follow the key-value pair format; the IIIF standard specifies what keys are required, what additional keys are available, and what the values associated with these keys can be. This makes the content of IIIF manifests predictable, allowing the easy creation of viewers and other tools, and reliable transfer of information. 
+IIIF documents, typically called manifests, are generally written in JSON, a typical format for transmitting data over the internet. JSON documents follow the key-value pair format; the IIIF standard specifies what keys are required, what additional keys are available, and what the values associated with these keys can be. This makes the content of IIIF manifests predictable, allowing the easy creation of viewers and other tools, and reliable transfer of information. 
 
 
 ## Examples of IIIF in use
@@ -37,9 +37,6 @@ There are a number of different projects using IIIF to present their data, over 
 
 - [RBGE herbarium](https://rbge.org.uk/) - IIIF is in use outside of just the humanities; for example the Royal Botanic Gardens Edinburgh are in the process of digitising their herbarium, and are using IIIF to serve the images. 
 
-### Other tools
-
-- [Miiify](https://miiify.org/) - One of many IIIF tools; in this case storing and serving IIIF manifests using GitHub as a backend.
 
 ## Advantages of IIIF
 
@@ -49,11 +46,11 @@ There are a number of different projects using IIIF to present their data, over 
 
 ## APIs
 
-IIIF defines a few different standards (APIs), which are designed to be combined, allowing flexibility in their use. Two of these APIs are detailed here in these notebooks - [presentation](https://iiif.io/api/presentation/3.0/) and [image](https://iiif.io/api/image/3.0/).  
-The image API is provides tools for serving image-resources. It specifies how different URIs can be constructed to request different views of the same resource, such as different zoom levels or regions. It also specifies how metadata about a resource should be structured and presented to the user when requested.    
-The presentation API specifies how one or more resources should be presented, along with their structure, metadata, and data such as annotations. For example, a presentation API manifest may show each page of a book, using the image API to form requests for images of each page. Manifests built by the presentation API are the main style of IIIF resource, and what you are most likely to encounter. 
+IIIF defines a few different standards (APIs), which are designed to be combined, allowing flexibility in their use. Two of these APIs are detailed here in these notebooks - [Presentation](https://iiif.io/api/presentation/3.0/) and [Image](https://iiif.io/api/image/3.0/).  
+The Image API is provides tools for serving image-resources. It specifies how different URIs can be constructed to request different views of the same resource, such as different zoom levels or regions. It also specifies how metadata about a resource should be structured and presented to the user when requested.    
+The Presentation API specifies how one or more resources should be presented, along with their structure, metadata, and data such as annotations. For example, a Presentation API manifest may show each page of a book, using the Image API to form requests for images of each page. Manifests built by the Presentation API are the main style of IIIF resource, and what you are most likely to encounter. 
 IIIF defines other APIs to allow further functionality, such as [search](https://iiif.io/api/search/2.0/) or [authorisation](https://iiif.io/api/auth/2.0/).
 
 ## Notebooks
 
-The two notebooks presented here work through the [Presentation](./presentation_api.ipynb) and [Image](image_api.ipynb) APIs, as they are the most likely to be encountered. They both work with the same example document from Discovery, building a hypothetical IIIF manifest from the data available, with the aim of understanding what values are required, and how they should be formatted. The image API notebook also dissects some live examples, to see what values have been used, and what the effect of changing them is.
+The two notebooks presented here work through the [Presentation](./presentation_api.ipynb) and [Image](image_api.ipynb) APIs, as they are the most likely to be encountered. They both work with the same example document from Discovery, building a hypothetical IIIF manifest from the data available, with the aim of understanding what values are required, and how they should be formatted. The Image API notebook also dissects some live examples, to see what values have been used, and what the effect of changing them is.
